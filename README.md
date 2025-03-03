@@ -47,7 +47,7 @@ The table below presents the accuracy results for different optimizers:
 
 -The reasons for Low Accuracy:
 
-->**Complex Dataset**: EMNIST has 47 classes (A-Z, a-z, 0-9), making it more challenging. A simple feedforward network may not be powerful enough.
+->**Complex Dataset**: EMNIST has 47 classes , making it more challenging. A simple feedforward network may not be powerful enough.
 
 ->**Preprocessing Issues**: The EMNIST dataset consists of handwritten characters, which means proper data augmentation (like normalization, rotation, or noise reduction) might help.
 Neural Network Architecture: The current architecture is relatively shallow. Adding more hidden layers or using CNNs instead of a simple feedforward network would likely imporve the accuracy.
